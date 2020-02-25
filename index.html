@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta  charset="utf-8">
+	<title>Форма отправки</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<form id="contactForm" role="form"  action="https://digital-spectr.com/ac/academy.php" method="post"class="form" >
+			<div class="form_name">
+				<h2>Задать вопрос</h2>
+			</div>
+				<div class="form-group">
+            		<input class="form-control name" type="text" id="name" name="name" placeholder="Фамилия Имя Отчество *" required="required" data-validation-required-message="Введите ваше имя">
+            		<p class="help-block text-danger"></p>
+            	</div>
+            	<div class="form-group">
+            		<input class="form-control phone" type="text" id="phone" name="phone" placeholder="Телефон *" required="required" data-validation-required-message="Введите ваш телефон">
+            		<p class="help-block text-danger"></p>
+            	</div>
+            	<div class="form-group">
+            		<input class="form-control" type="email" id="email" name="email" placeholder="Email">
+            		<p class="help-block text-danger"></p>
+            	</div>
+            	<button class="btn" id="cfsubmit" type="submit">Отправить запрос         		
+            	</button>	
+		</form>		
+	</div>
+	<script src="main.js"></script>
+
+</body>
+</html>

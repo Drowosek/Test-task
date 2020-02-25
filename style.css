@@ -1,0 +1,106 @@
+body {
+	margin:0px;
+	padding: 0px;
+	background-color: #EAEAEA;
+}
+::-webkit-input-placeholder {
+	text-indent: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 15px;
+	color:#D0C9D6;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+h2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 20px;
+	color: #3B3D43;
+
+}
+.container {
+	margin: auto;
+	position: relative;
+	width: 1024px;
+	height: 768px;
+	background: #FFFFFF;
+}
+.form {
+	position: absolute;
+	left: 26.56%;
+	right: 26.46%;
+	top: 4.04%;
+	bottom: 44.92%;
+	background: #F7F5F9;
+	border-radius: 12px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.form_name {
+	margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 23px;
+
+}
+.form-group	{
+	
+	margin-left: 40px;
+	margin-bottom: 21px;
+}
+.form-control {
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	width: 401px;
+    height: 48px;
+   	text-indent: 15px;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    outline: none;
+}
+.form-control:active {
+    border: 1px solid #854FC8;
+	box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+	border-radius: 6px;
+}
+.form-control:hover {
+    border: 1px solid #854FC8;
+	box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+	border-radius: 6px;
+}
+.btn {
+	margin-top: 2px;
+    margin-left: 40px;
+    border: 1px solid #6979F8;
+    border-radius: 6px;
+    width: 401px;
+    background-color: #6979F8;
+    height: 48px;
+    text-transform: uppercase;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 22px;
+	color: #ffffff; 
+
+}
+.btn:hover {
+	background-color: #000000;
+	border: 1px solid #000000;
+	color: #ffffff;
+}
+.btn:active {
+	background-color: #39a935;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	
+}
